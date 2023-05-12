@@ -19,16 +19,16 @@ Este é um projeto que demonstra um sistema de autenticação e gerenciamento de
 
 1. Clone o repositório:
 
-   ``bash
-   git clone https://github.com/seu-usuario/meu-projeto.git
+   ```bash
+   git clone https://github.com/seu-usuario/meu-projeto.git```
    
    
 
 2. Instale as dependências:
 
-``bash
+```bash
 cd meu-projeto
-npm install
+npm install```
 
 3. Configure as variáveis de ambiente:
 
