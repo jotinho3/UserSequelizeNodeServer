@@ -24,27 +24,26 @@ Este é um projeto que demonstra um sistema de autenticação e gerenciamento de
    
    
 
-Instale as dependências:
+2. Instale as dependências:
 
-bash
-Copy code
+```bash
 cd meu-projeto
 npm install
-Configure as variáveis de ambiente:
+
+3. Configure as variáveis de ambiente:
 
 Renomeie o arquivo .env.example para .env
 Edite o arquivo .env e defina os valores apropriados para as variáveis de ambiente
 Execute as migrações do banco de dados:
 
-bash
-Copy code
+```bash
 npm run migrate
 Inicie o servidor:
 
-bash
-Copy code
+```bash
 npm start
-Uso
+
+4. Uso
 Para registrar um novo usuário, faça uma requisição POST para /register com os campos name, email e password.
 Para fazer login, faça uma requisição POST para /login com os campos email e password.
 A rota /users/:id retorna os detalhes de um usuário específico (requer autenticação).
