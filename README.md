@@ -19,14 +19,14 @@ Este é um projeto que demonstra um sistema de autenticação e gerenciamento de
 
 1. Clone o repositório:
 
-   ```bash
+   ``bash
    git clone https://github.com/seu-usuario/meu-projeto.git
    
    
 
 2. Instale as dependências:
 
-```bash
+``bash
 cd meu-projeto
 npm install
 
@@ -36,11 +36,11 @@ Renomeie o arquivo .env.example para .env
 Edite o arquivo .env e defina os valores apropriados para as variáveis de ambiente
 Execute as migrações do banco de dados:
 
-```bash
+``bash
 npm run migrate
 Inicie o servidor:
 
-```bash
+``bash
 npm start
 
 4. Uso
